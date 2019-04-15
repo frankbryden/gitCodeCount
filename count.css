@@ -1,0 +1,20 @@
+table {
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding : 10px;
+}
+
+table tr:nth-child(even){
+    background-color: #a7c3f2;
+}
+
+table tr:nth-child(odd){
+    background-color: #a7e5f2;
+}
